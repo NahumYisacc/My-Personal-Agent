@@ -40,9 +40,9 @@
 
 | Metric | Value |
 |---|---|
-| Total courses | 20 |
-| Total units | 60 |
-| GPA | 2.65 |
+| Total courses | 21 |
+| Total units | 64 |
+| GPA | 2.73 |
 | Current classes | Intro to Computer Science (A), Azure Database (C), Azure Essentials (F), Microeconomics (D) |
 
 ## Degree and Transfer Tracking
