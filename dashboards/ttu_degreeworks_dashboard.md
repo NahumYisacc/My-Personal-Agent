@@ -14,7 +14,7 @@
 
 | Requirement | Status | Notes |
 |---|---|---|
-| Minimum Hours Required for Degree | Not complete | 120 minimum; 81 hours still needed |
+| Minimum Hours Required for Degree | Not complete | 120 minimum; 81 hours still needed. This reflects degree-applicable hours currently applied, not all accepted transfer credit. |
 | Junior/Senior Hours | Not complete | 40 required; 0 upper-level hours applied |
 | Minimum GPA for BS Degree | Not complete | 2.0 required |
 | Core Curriculum & Graduation Requirements | Not complete | See Core Curriculum section |
