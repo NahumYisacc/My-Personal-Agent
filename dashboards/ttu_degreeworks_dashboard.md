@@ -7,7 +7,7 @@
 | Institution | Texas Tech University |
 | Degree | Bachelor of Science in Human Centered AI (HCAI) |
 | Campus | TTU Online (Distance Electronic) |
-| Expected Graduation | Early Fall 2029 |
+| Expected Graduation | Early Fall 2027 |
 | Audit Date | 07/21/2026 1:29 AM |
 
 ## Degree Progress Summary
