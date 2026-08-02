@@ -203,17 +203,17 @@
       "id": "course-soc-001",
       "title": "Sociology 1 Introduction",
       "units": 3,
-      "grade": "A",
-      "grade_points": 4.0,
-      "status": "completed"
+      "grade": null,
+      "grade_points": null,
+      "status": "in_progress"
     },
     {
       "id": "course-cs79a-001",
       "title": "CS 79A Cloud Computing",
       "units": 3,
-      "grade": "C",
-      "grade_points": 2.0,
-      "status": "completed"
+      "grade": null,
+      "grade_points": null,
+      "status": "in_progress"
     }
   ]
 }

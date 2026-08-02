@@ -12,13 +12,13 @@
 
 | Category | Units Enrolled | Units Attempted | Units Completed | Grade Points | GPA |
 |---|---:|---:|---:|---:|---:|
-| Cumulative Total | 63.00 | 64.00 | 57.00 | 166.00 | 2.594 |
-| Combined Degree Total | 64.00 | 57.00 | 57.00 | 166.00 | 2.594 |
-| El Camino College (Non-SMC) Total | 4.00 | 6.00 | 16.00 | 16.00 | 4.000 |
-| SMC Total | 63.00 | 60.00 | 51.00 | 150.00 | 2.500 |
-| AA Total | 60.00 | 51.00 | 51.00 | 150.00 | 2.500 |
-| CSU Total | 60.00 | 51.00 | 150.00 | 150.00 | 2.500 |
-| UC Total | 48.00 | 42.00 | 132.00 | 132.00 | 2.750 |
+| Cumulative Total | 70.00 | 70.00 | 64.00 | 175.00 | 2.73 |
+| Combined Degree Total | 70.00 | 70.00 | 64.00 | 175.00 | 2.73 |
+| El Camino College (Non-SMC) Total | 4.00 | 4.00 | 4.00 | 16.00 | 4.00 |
+| SMC Total | 66.00 | 66.00 | 60.00 | 159.00 | 2.65 |
+| AA Total | 60.00 | 51.00 | 51.00 | 150.00 | 2.50 |
+| CSU Total | 60.00 | 51.00 | 51.00 | 150.00 | 2.50 |
+| UC Total | 48.00 | 42.00 | 42.00 | 132.00 | 3.14 |
 
 | Note |
 |---|
