@@ -105,6 +105,14 @@
 
 ## Highlights
 
+## El Camino College (Non-SMC) Transcript Snapshot
+
+| Course | Units | Grade | Notes |
+|---|---:|---|---|
+| ENGL-0100S Academic Reading & Writing (Support) | 2 | P/S | Supplemental/support course |
+| ENGL-C1000 Academic Reading and Writing | 4 | A | Transfer credit accepted at SMC (4.00 GPA eq.) |
+
+
 | Highlight |
 |---|
 | The largest academic milestone is the AA degree pathway. |
