@@ -14,7 +14,7 @@
 |---|---:|---:|---:|---:|---:|
 | Cumulative Total | 63.00 | 64.00 | 57.00 | 166.00 | 2.594 |
 | Combined Degree Total | 64.00 | 57.00 | 166.00 | 166.00 | 2.594 |
-| Non-SMC Total | 4.00 | 6.00 | 16.00 | 16.00 | 4.000 |
+| El Camino College (Non-SMC) Total | 4.00 | 6.00 | 16.00 | 16.00 | 4.000 |
 | SMC Total | 63.00 | 60.00 | 51.00 | 150.00 | 2.500 |
 | AA Total | 60.00 | 51.00 | 150.00 | 150.00 | 2.500 |
 | CSU Total | 60.00 | 51.00 | 150.00 | 150.00 | 2.500 |
@@ -95,6 +95,13 @@
 | External credit | El Camino College transfer work accepted at SMC with 6 attempted units and 4.00 GPA equivalent. |
 | English course replacement | The English course record is represented as a completed replacement entry showing the updated grade and unit value. |
 | Grade replacement | D and F records from earlier terms are reflected in the tracked course summary and dashboard. |
+
+## In-Progress Courses
+
+| Course | Units | Status |
+|---|---:|---|
+| CS 79A Cloud Computing | 3 | In progress |
+| Sociology 1 Introduction | 3 | In progress |
 
 ## Highlights
 
