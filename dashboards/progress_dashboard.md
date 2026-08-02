@@ -1,19 +1,71 @@
 # Progress Dashboard
 
 ## Summary
-- Total goals: 5
-- Not started: 1
-- In progress: 4
-- Completed: 0
-- Blocked: 0
+
+| Metric | Value |
+|---|---:|
+| Total goals | 5 |
+| Not started | 1 |
+| In progress | 4 |
+| Completed | 0 |
+| Blocked | 0 |
 
 ## Classes, Grades, and GPA
-- Total courses: 2
-- Total units: 6
-- GPA: 3.50
-- Current classes: College Algebra (A), English Composition (B)
+
+| Metric | Value |
+|---|---|
+| Total courses | 20 |
+| Total units | 60 |
+| GPA | 2.65 |
+| Current classes | Intro to Computer Science (A), Azure Database (C), Azure Essentials (F), Microeconomics (D) |
+
+## Degree and Transfer Tracking
+
+| Area | Completed Units | Target Units | Progress |
+|---|---:|---:|---:|
+| AA Degree | 51 | 60 | 85% |
+| TTU Transfer | 51 | 60 | 85% |
+| UC Transfer | 42 | 48 | 88% |
+
+## Goal Tracking
+
+| Goal | Status | Progress |
+|---|---|---:|
+| Study math | Not started | 0% |
+| SMC AA degree progress | In progress | 85% |
+| TTU transfer progress | In progress | 85% |
+| UC transfer progress | In progress | 88% |
+| TTU transfer planning | In progress | 25% |
+
+## Transcript Snapshot
+
+| Course | Units | Grade |
+|---|---:|---|
+| Intro to Computer Science | 3 | A |
+| Azure Database | 3 | C |
+| Azure Essentials | 3 | F |
+| Microeconomics | 3 | D |
+| Read and Comp 1 | 3 | A |
+| Western Civ | 3 | B |
+| Art Appreciation | 3 | A |
+| Biological Anthropology | 3 | C |
+| Stellar Astronomy | 3 | B |
+| American and California Politics | 3 | B |
+| Business Introduction | 3 | B |
+| Elementary Public Speaking | 3 | B |
+| Business Law and Environment | 3 | F |
+| Macroeconomics | 3 | A |
+| Java Programming | 3 | B |
+| Student Success | 3 | B |
+| C Programming | 3 | B |
+| Fundamentals and Architecture | 3 | C |
+| JavaScript HTML | 3 | C |
+| Python Programming | 3 | A |
 
 ## Highlights
-- The largest academic milestone is the AA degree pathway.
-- Transfer progress is already moving well for both TTU and UC tracks.
-- One goal remains untouched and should be prioritized next.
+
+| Highlight |
+|---|
+| The largest academic milestone is the AA degree pathway. |
+| Transfer progress is already moving well for both TTU and UC tracks. |
+| One goal remains untouched and should be prioritized next. |
