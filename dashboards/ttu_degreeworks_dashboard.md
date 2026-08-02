@@ -40,6 +40,34 @@
 | Elective | ISQS 2340 Intro to Info Sys in Business | CS 3 - Intro to Computer - SMC | A | 3 | Spring 2023 |
 | Transfer Credit | TRSF 1 - Transfer Credit | COUNS 20 - Student Success - SMC | B | 2 | Spring 2026 |
 
+## Verified SMC Transcript Transfer Status
+
+| SMC Course | Grade | Term | TTU Status | Notes |
+|---|---|---|---|---|
+| CS 3 Intro to Computer Science | A | Spring 2023 | Accepted | Applied as CS 55 elective / degree-applicable transfer |
+| CS 79Y Azure Database | C | Spring 2023 | Accepted | Applied as CS 2 elective / degree-applicable transfer |
+| CS 79Z Azure Essentials | F | Spring 2023 | Not accepted | Grade F prevents transfer application for TTU degree |
+| ECON 1 Microeconomics | C | Summer 2023 | Accepted | Applied as ECO 2301 transfer credit |
+| ENGL 1 Read and Comp 1 | D | Spring 2023 | Not accepted | Not applied for TTU degree English requirement |
+| ENGL 1 Read and Comp 1 | F | Spring 2024 | Not accepted | Not applied for TTU degree English requirement |
+| HIST 1 Western Civ | B | Summer 2023 | Accepted | Applied toward U.S. History/arts requirement |
+| AHIS 11 Art Appreciation | A | Fall 2023 | Accepted | Applied as ART 1309 creative arts transfer credit |
+| ANTHRO 1 Biological Anthropology | C | Fall 2023 | Accepted | Applied as general elective transfer credit |
+| ASTRON 1 Stellar Astron | B | Fall 2023 | Accepted | Applied as general elective transfer credit |
+| POL SC 1 American Govt | B | Fall 2023 | Accepted | Applied as POLS 1301 transfer credit |
+| BUS 1 Business Intro | B | Winter 2024 | Accepted | Applied as general elective transfer credit |
+| COM ST 11 Elem Pub Spk | B | Winter 2024 | Accepted | Applied as COMS 2300 oral communication transfer credit |
+| BUS 5 Business Law & Environment | F | Spring 2024 | Not accepted | Grade F prevents transfer application |
+| ECON 2 Macroeconomics | A | Fall 2024 | Accepted | Applied as ECO 2302 transfer credit |
+| CS 55 Java Programming | B | Fall 2025 | Accepted | Applied as CS 55 elective transfer credit |
+| CS 79A Cloud Computing | EW | Summer 2026 | In progress | Not yet final; not yet applied |
+| COUNS 20 Student Success | B | Winter 2026 | Accepted | Applied as IS 1100/TRSF transfer credit |
+| CS 50 C Programming | B | Spring 2026 | Accepted | Applied as general elective transfer credit |
+| CS 70 Fundmtl & Arch | C | Spring 2026 | Accepted | Applied as general elective transfer credit |
+| CS 81 Javascript HTML | C | Spring 2026 | Accepted | Applied as general elective transfer credit |
+| CS 87A Python Program | A | Spring 2026 | Accepted | Applied as general elective transfer credit |
+| ENGL-C1000 Academic Reading and Writing | A | El Camino | Accepted | External credit accepted at SMC; may transfer as elective |
+
 ## Completed TTU-Applicable Transfers
 
 | Course | Grade | Hours | Notes |
