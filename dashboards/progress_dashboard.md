@@ -1,5 +1,13 @@
 # Progress Dashboard
 
+## Student Information
+
+| Field | Value |
+|---|---|
+| School | Santa Monica College |
+| Student Name | Nahum Yisacc |
+| Student ID | 1909139 |
+
 ## Summary
 
 | Metric | Value |
