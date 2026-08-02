@@ -1,0 +1,219 @@
+{
+  "goals": [
+    {
+      "id": "1a3e80c2",
+      "title": "Study math",
+      "notes": "Review chapter 3",
+      "status": "not_started",
+      "progress": 0
+    },
+    {
+      "id": "c4cc9e56",
+      "title": "SMC AA degree progress",
+      "notes": "Based on your unofficial transcript: 51 completed units toward the AA pathway.",
+      "status": "in_progress",
+      "progress": 85,
+      "category": "degree",
+      "target_units": 60,
+      "completed_units": 51
+    },
+    {
+      "id": "f429e349",
+      "title": "TTU transfer progress",
+      "notes": "Track your TTU transfer completion using the transcript totals.",
+      "status": "in_progress",
+      "progress": 85,
+      "category": "transfer",
+      "target_units": 60,
+      "completed_units": 51
+    },
+    {
+      "id": "fd623912",
+      "title": "UC transfer progress",
+      "notes": "Track your UC transfer completion using the transcript totals.",
+      "status": "in_progress",
+      "progress": 88,
+      "category": "transfer",
+      "target_units": 48,
+      "completed_units": 42
+    },
+    {
+      "id": "b6d6b7ee",
+      "title": "TTU transfer planning",
+      "notes": "Next steps: application materials, transcripts, and transfer evaluation.",
+      "status": "in_progress",
+      "progress": 25,
+      "category": "transfer",
+      "target_units": 100,
+      "completed_units": 25
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-001",
+      "title": "Intro to Computer Science",
+      "units": 3,
+      "grade": "A",
+      "grade_points": 4.0
+    },
+    {
+      "id": "course-002",
+      "title": "Azure Database",
+      "units": 3,
+      "grade": "C",
+      "grade_points": 2.0
+    },
+    {
+      "id": "course-003",
+      "title": "Azure Essentials",
+      "units": 3,
+      "grade": "F",
+      "grade_points": 0.0
+    },
+    {
+      "id": "course-004",
+      "title": "Microeconomics",
+      "units": 3,
+      "grade": "D",
+      "grade_points": 1.0
+    },
+    {
+      "id": "course-005",
+      "title": "Read and Comp 1",
+      "units": 3,
+      "grade": "A",
+      "grade_points": 4.0
+    },
+    {
+      "id": "course-006",
+      "title": "Western Civ",
+      "units": 3,
+      "grade": "B",
+      "grade_points": 3.0
+    },
+    {
+      "id": "course-007",
+      "title": "Art Appreciation",
+      "units": 3,
+      "grade": "A",
+      "grade_points": 4.0
+    },
+    {
+      "id": "course-008",
+      "title": "Biological Anthropology",
+      "units": 3,
+      "grade": "C",
+      "grade_points": 2.0
+    },
+    {
+      "id": "course-009",
+      "title": "Stellar Astronomy",
+      "units": 3,
+      "grade": "B",
+      "grade_points": 3.0
+    },
+    {
+      "id": "course-010",
+      "title": "American and California Politics",
+      "units": 3,
+      "grade": "B",
+      "grade_points": 3.0
+    },
+    {
+      "id": "course-011",
+      "title": "Business Introduction",
+      "units": 3,
+      "grade": "B",
+      "grade_points": 3.0
+    },
+    {
+      "id": "course-012",
+      "title": "Elementary Public Speaking",
+      "units": 3,
+      "grade": "B",
+      "grade_points": 3.0
+    },
+    {
+      "id": "course-013",
+      "title": "Business Law and Environment",
+      "units": 3,
+      "grade": "F",
+      "grade_points": 0.0
+    },
+    {
+      "id": "course-014",
+      "title": "Macroeconomics",
+      "units": 3,
+      "grade": "A",
+      "grade_points": 4.0
+    },
+    {
+      "id": "course-015",
+      "title": "Java Programming",
+      "units": 3,
+      "grade": "B",
+      "grade_points": 3.0
+    },
+    {
+      "id": "course-016",
+      "title": "Student Success",
+      "units": 3,
+      "grade": "B",
+      "grade_points": 3.0
+    },
+    {
+      "id": "course-017",
+      "title": "C Programming",
+      "units": 3,
+      "grade": "B",
+      "grade_points": 3.0
+    },
+    {
+      "id": "course-018",
+      "title": "Fundamentals and Architecture",
+      "units": 3,
+      "grade": "C",
+      "grade_points": 2.0
+    },
+    {
+      "id": "course-019",
+      "title": "JavaScript HTML",
+      "units": 3,
+      "grade": "C",
+      "grade_points": 2.0
+    },
+    {
+      "id": "course-020",
+      "title": "Python Programming",
+      "units": 3,
+      "grade": "A",
+      "grade_points": 4.0
+    }
+    ,
+    {
+      "id": "elc-eng-001",
+      "title": "ENGL-C1000 Academic Reading and Writing",
+      "units": 4,
+      "grade": "A",
+      "grade_points": 4.0,
+      "source": "El Camino College"
+    }
+    ,
+    {
+      "id": "course-soc-001",
+      "title": "Sociology 1 Introduction",
+      "units": 3,
+      "grade": "A",
+      "grade_points": 4.0,
+      "status": "completed"
+    },
+    {
+      "id": "course-cs79a-001",
+      "title": "CS 79A Cloud Computing",
+      "units": 3,
+      "grade": "C",
+      "grade_points": 2.0,
+      "status": "completed"
+    }
+  ]
+}
