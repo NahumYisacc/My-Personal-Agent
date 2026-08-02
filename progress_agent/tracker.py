@@ -99,6 +99,22 @@ class ProgressTracker:
         self._save()
 
     def seed_degree_plan(self) -> list[str]:
+        existing_goals = list(self._data.get("goals", []))
+        self._data["goals"] = [
+            goal
+            for goal in existing_goals
+            if not any(
+                goal.get("title", "").startswith(prefix)
+                for prefix in (
+                    "SMC AA degree progress",
+                    "CSU transfer progress",
+                    "TTU transfer progress",
+                    "UC transfer progress",
+                    "TTU transfer planning",
+                )
+            )
+        ]
+
         milestones = [
             (
                 "SMC AA degree progress",
@@ -108,8 +124,8 @@ class ProgressTracker:
                 51,
             ),
             (
-                "CSU transfer progress",
-                "Track your CSU transfer completion using the transcript totals.",
+                "TTU transfer progress",
+                "Track your TTU transfer completion using the transcript totals.",
                 "transfer",
                 60,
                 51,
@@ -129,10 +145,10 @@ class ProgressTracker:
                 25,
             ),
         ]
-        return [
-            self.add_goal(title, notes, category=category, target_units=target_units, completed_units=completed_units)
-            for title, notes, category, target_units, completed_units in milestones
-        ]
+        goal_ids = []
+        for milestone in milestones:
+            goal_ids.append(self.add_goal(milestone[0], milestone[1], category=milestone[2], target_units=milestone[3], completed_units=milestone[4]))
+        return goal_ids
 
     def summary(self) -> dict[str, int]:
         goals = self.list_goals()

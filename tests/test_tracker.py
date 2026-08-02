@@ -38,6 +38,18 @@ class ProgressTrackerTests(unittest.TestCase):
             self.assertEqual(aa_goal["completed_units"], 51)
             self.assertEqual(aa_goal["progress"], 85)
 
+    def test_seed_degree_plan_replaces_stale_transfer_goals(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            storage_path = Path(tmp_dir) / "progress.json"
+            tracker = ProgressTracker(storage_path)
+            tracker.add_goal("CSU transfer progress", "Old plan")
+            tracker.seed_degree_plan()
+
+            goals = tracker.list_goals()
+            self.assertEqual(len(goals), 4)
+            self.assertTrue(all("CSU" not in goal["title"] for goal in goals))
+            self.assertTrue(any("TTU transfer progress" == goal["title"] for goal in goals))
+
 
 if __name__ == "__main__":
     unittest.main()
