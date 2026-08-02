@@ -12,10 +12,10 @@
 
 | Category | Units Enrolled | Units Attempted | Units Completed | Grade Points | GPA |
 |---|---:|---:|---:|---:|---:|
-| Cumulative Total | 70.00 | 70.00 | 64.00 | 175.00 | 2.73 |
-| Combined Degree Total | 70.00 | 70.00 | 64.00 | 175.00 | 2.73 |
+| Cumulative Total | 70.00 | 70.00 | 70.00 | 193.00 | 2.76 |
+| Combined Degree Total | 70.00 | 70.00 | 70.00 | 193.00 | 2.76 |
 | El Camino College (Non-SMC) Total | 4.00 | 4.00 | 4.00 | 16.00 | 4.00 |
-| SMC Total | 66.00 | 66.00 | 60.00 | 159.00 | 2.65 |
+| SMC Total | 66.00 | 66.00 | 66.00 | 177.00 | 2.68 |
 | AA Total | 60.00 | 51.00 | 51.00 | 150.00 | 2.50 |
 | CSU Total | 60.00 | 51.00 | 51.00 | 150.00 | 2.50 |
 | UC Total | 48.00 | 42.00 | 42.00 | 132.00 | 3.14 |
@@ -87,6 +87,8 @@
 | Fundamentals and Architecture | 3 | C |
 | JavaScript HTML | 3 | C |
 | Python Programming | 3 | A |
+| Sociology 1 Introduction | 3 | A |
+| CS 79A Cloud Computing | 3 | C |
 
 ## Transcript Notes
 
