@@ -62,6 +62,14 @@
 | JavaScript HTML | 3 | C |
 | Python Programming | 3 | A |
 
+## Transcript Notes
+
+| Note | Details |
+|---|---|
+| External credit | El Camino College transfer work accepted at SMC with 6 attempted units and 4.00 GPA equivalent. |
+| English course replacement | The English course record is represented as a completed replacement entry showing the updated grade and unit value. |
+| Grade replacement | D and F records from earlier terms are reflected in the tracked course summary and dashboard. |
+
 ## Highlights
 
 | Highlight |
