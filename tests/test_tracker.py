@@ -50,6 +50,24 @@ class ProgressTrackerTests(unittest.TestCase):
             self.assertTrue(all("CSU" not in goal["title"] for goal in goals))
             self.assertTrue(any("TTU transfer progress" == goal["title"] for goal in goals))
 
+    def test_add_course_and_calculate_gpa(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            storage_path = Path(tmp_dir) / "progress.json"
+            tracker = ProgressTracker(storage_path)
+
+            course_id = tracker.add_course("College Algebra", 3, "A")
+            tracker.add_course("English Composition", 3, "B")
+
+            course = tracker.get_course(course_id)
+            self.assertEqual(course["title"], "College Algebra")
+            self.assertEqual(course["units"], 3)
+            self.assertEqual(course["grade"], "A")
+
+            summary = tracker.get_course_summary()
+            self.assertEqual(summary["total_courses"], 2)
+            self.assertEqual(summary["total_units"], 6)
+            self.assertEqual(summary["gpa"], 3.5)
+
 
 if __name__ == "__main__":
     unittest.main()

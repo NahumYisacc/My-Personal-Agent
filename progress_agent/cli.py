@@ -8,9 +8,10 @@ from progress_agent.tracker import ProgressTracker
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Track your goals and progress")
-    parser.add_argument("command", choices=["add", "list", "update", "status", "complete", "summary", "seed-degree"], help="Action to perform")
-    parser.add_argument("value", nargs="?", help="Title, notes, goal id, or percentage")
-    parser.add_argument("value2", nargs="?", help="Optional notes or status")
+    parser.add_argument("command", choices=["add", "list", "update", "status", "complete", "summary", "seed-degree", "add-course", "courses"], help="Action to perform")
+    parser.add_argument("value", nargs="?", help="Title, notes, goal id, percentage, or course title")
+    parser.add_argument("value2", nargs="?", help="Optional notes, status, course units, or percentage")
+    parser.add_argument("value3", nargs="?", help="Optional grade")
     parser.add_argument("--storage", default="data/progress.json", help="Path to the JSON storage file")
     return parser
 
@@ -49,12 +50,22 @@ def main() -> None:
         print(f"Completed {goal_id}")
     elif args.command == "summary":
         summary = tracker.summary()
+        summary["courses"] = tracker.get_course_summary()
         print(summary)
     elif args.command == "seed-degree":
         goal_ids = tracker.seed_degree_plan()
         print(f"Added {len(goal_ids)} degree milestones")
         for goal_id in goal_ids:
             print(goal_id)
+    elif args.command == "add-course":
+        title = args.value or "New course"
+        units = int(args.value2 or 3)
+        grade = args.value3 or "N/A"
+        course_id = tracker.add_course(title, units, grade)
+        print(f"Added course {course_id}: {title} ({units} units, {grade})")
+    elif args.command == "courses":
+        for course in tracker.list_courses():
+            print(f"{course['id']} | {course['title']} | {course['units']} units | {course.get('grade') or 'N/A'}")
 
 
 if __name__ == "__main__":

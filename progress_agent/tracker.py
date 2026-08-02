@@ -10,7 +10,7 @@ class ProgressTracker:
     def __init__(self, storage_path: str | Path | None = None) -> None:
         self.storage_path = Path(storage_path or "data/progress.json")
         self.storage_path.parent.mkdir(parents=True, exist_ok=True)
-        self._data: dict[str, Any] = {"goals": []}
+        self._data: dict[str, Any] = {"goals": [], "courses": []}
         self._load()
 
     def _load(self) -> None:
@@ -20,6 +20,7 @@ class ProgressTracker:
                 if isinstance(data, dict):
                     self._data = data
         self._data.setdefault("goals", [])
+        self._data.setdefault("courses", [])
 
     def _save(self) -> None:
         with self.storage_path.open("w", encoding="utf-8") as handle:
@@ -32,6 +33,43 @@ class ProgressTracker:
         if completed_units is None:
             completed_units = 0
         return max(0, min(100, int(round((float(completed_units) / float(target_units)) * 100))))
+
+    @staticmethod
+    def _grade_to_points(grade: str | None) -> float | None:
+        if grade is None:
+            return None
+        normalized = str(grade).strip().upper()
+        if normalized in {"", "N/A", "NA", "NONE"}:
+            return None
+        if normalized in {"A", "A+"}:
+            return 4.0
+        if normalized == "A-":
+            return 3.7
+        if normalized == "B+":
+            return 3.3
+        if normalized == "B":
+            return 3.0
+        if normalized == "B-":
+            return 2.7
+        if normalized == "C+":
+            return 2.3
+        if normalized == "C":
+            return 2.0
+        if normalized == "C-":
+            return 1.7
+        if normalized == "D+":
+            return 1.3
+        if normalized == "D":
+            return 1.0
+        if normalized in {"F", "NP", "NO PASS", "NC", "NO CREDIT"}:
+            return 0.0
+        if normalized in {"P", "PASS", "CR", "CREDIT"}:
+            return None
+        try:
+            value = float(normalized)
+        except ValueError:
+            return None
+        return value if 0.0 <= value <= 4.0 else None
 
     def add_goal(
         self,
@@ -97,6 +135,55 @@ class ProgressTracker:
         elif status == "not_started":
             goal["progress"] = 0
         self._save()
+
+    def add_course(self, title: str, units: int | float, grade: str | None = None) -> str:
+        try:
+            unit_count = int(units)
+        except (TypeError, ValueError) as exc:
+            raise ValueError("Units must be an integer") from exc
+        if unit_count <= 0:
+            raise ValueError("Units must be greater than 0")
+
+        course_id = str(uuid.uuid4())[:8]
+        course = {
+            "id": course_id,
+            "title": title,
+            "units": unit_count,
+            "grade": grade,
+            "grade_points": self._grade_to_points(grade),
+        }
+        self._data.setdefault("courses", []).append(course)
+        self._save()
+        return course_id
+
+    def add_class(self, title: str, units: int | float, grade: str | None = None) -> str:
+        return self.add_course(title, units, grade)
+
+    def get_course(self, course_id: str) -> dict[str, Any]:
+        for course in self._data.get("courses", []):
+            if course.get("id") == course_id:
+                return course
+        raise KeyError(f"Course {course_id} not found")
+
+    def list_courses(self) -> list[dict[str, Any]]:
+        return list(self._data.get("courses", []))
+
+    def get_course_summary(self) -> dict[str, Any]:
+        courses = self.list_courses()
+        total_units = sum(int(course.get("units", 0) or 0) for course in courses)
+        graded_units = sum(int(course.get("units", 0) or 0) for course in courses if course.get("grade_points") is not None)
+        weighted_points = sum(
+            (float(course.get("grade_points") or 0.0) * int(course.get("units", 0) or 0))
+            for course in courses
+            if course.get("grade_points") is not None
+        )
+        gpa = round(weighted_points / graded_units, 2) if graded_units else 0.0
+        return {
+            "total_courses": len(courses),
+            "total_units": total_units,
+            "graded_units": graded_units,
+            "gpa": gpa,
+        }
 
     def seed_degree_plan(self) -> list[str]:
         existing_goals = list(self._data.get("goals", []))

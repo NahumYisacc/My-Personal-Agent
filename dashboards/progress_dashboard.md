@@ -7,6 +7,12 @@
 - Completed: 0
 - Blocked: 0
 
+## Classes, Grades, and GPA
+- Total courses: 2
+- Total units: 6
+- GPA: 3.50
+- Current classes: College Algebra (A), English Composition (B)
+
 ## Highlights
 - The largest academic milestone is the AA degree pathway.
 - Transfer progress is already moving well for both TTU and UC tracks.

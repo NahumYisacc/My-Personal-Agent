@@ -9,3 +9,8 @@
 ## Focus Areas
 - Finish the remaining 9 units needed for the degree milestone.
 - Review the degree audit to confirm all requirements are still on track.
+
+## Classes and Grades
+- College Algebra: A, 3 units
+- English Composition: B, 3 units
+- Current GPA estimate: 3.50
