@@ -56,6 +56,18 @@
 | ISQS 2340 | A | 3 | Transfer credit from SMC |
 | TRSF 1 | B | 2 | Transfer credit from SMC |
 
+## Transfer Coursework Not Accepted / Not Applied
+
+| Source Course | TTU Transfer Equivalent | Term | Reason |
+|---|---|---|---|
+| ENGL1 - Reading/Composition I | ENGL 1301 Essential of College Rhetoric | Spring 2023 | Not applied / not accepted for TTU degree |
+| BUS5 - Business Law & Environment | BUS 5 Business Law & Environment | Spring 2024 | Not accepted due to insufficient transfer credit |
+| COMM1006 - Oral Communication | COMS 1 Communications Transfer | Fall 2022 | Not accepted standard transfer credit |
+| CS79Z - Azure Essentials | CS 2 Computer Sci Transfer | Spring 2023 | Not accepted for TTU degree |
+| ENGL1 - Reading/Composition I | ENGL 1 English Transfer | Spring 2024 | Not accepted for TTU degree |
+| HIST1460 - History of US: Pre-Col to Present | HIST 1 History Transfer | Fall 2022 | Not accepted for TTU degree |
+| KINE2050 - Found Fitness & Wellness | PFW 2 PF&W Transfer | Fall 2022 | Not accepted for TTU degree |
+
 ## Incomplete TTU Areas
 
 | Requirement | Detail |
