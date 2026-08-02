@@ -24,6 +24,7 @@
 |---|
 | Excludes Work in Progress. |
 | Semester/cumulative statistics will be updated once all final grades are posted to the transcript. |
+| Pending grades are shown as estimated progress; the totals above become official only after the transcript is updated. |
 | AA, CSU, and UC Total statistics above only include courses completed at SMC starting Fall 1984. |
 
 ## Summary
