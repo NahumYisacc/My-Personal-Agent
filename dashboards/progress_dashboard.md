@@ -40,9 +40,9 @@
 
 | Metric | Value |
 |---|---|
-| Total courses | 21 |
-| Total units | 64 |
-| GPA | 2.73 |
+| Total courses | 23 |
+| Total units | 70 |
+| GPA | 2.76 |
 | Current classes | Intro to Computer Science (A), Azure Database (C), Azure Essentials (F), Microeconomics (D) |
 
 ## Degree and Transfer Tracking
@@ -100,8 +100,7 @@
 
 | Course | Units | Status |
 |---|---:|---|
-| CS 79A Cloud Computing | 3 | In progress |
-| Sociology 1 Introduction | 3 | In progress |
+| (none) | 0 | — |
 
 ## Highlights
 
