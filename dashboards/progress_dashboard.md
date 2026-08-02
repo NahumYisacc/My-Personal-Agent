@@ -8,6 +8,24 @@
 | Student Name | Nahum Yisacc |
 | Student ID | 1909139 |
 
+## Cumulative Transcript Statistics
+
+| Category | Units Enrolled | Units Attempted | Units Completed | Grade Points | GPA |
+|---|---:|---:|---:|---:|---:|
+| Cumulative Total | 63.00 | 64.00 | 57.00 | 166.00 | 2.594 |
+| Combined Degree Total | 64.00 | 57.00 | 166.00 | 166.00 | 2.594 |
+| Non-SMC Total | 4.00 | 6.00 | 16.00 | 16.00 | 4.000 |
+| SMC Total | 63.00 | 60.00 | 51.00 | 150.00 | 2.500 |
+| AA Total | 60.00 | 51.00 | 150.00 | 150.00 | 2.500 |
+| CSU Total | 60.00 | 51.00 | 150.00 | 150.00 | 2.500 |
+| UC Total | 48.00 | 42.00 | 132.00 | 132.00 | 2.750 |
+
+| Note |
+|---|
+| Excludes Work in Progress. |
+| Semester/cumulative statistics will be updated once all final grades are posted to the transcript. |
+| AA, CSU, and UC Total statistics above only include courses completed at SMC starting Fall 1984. |
+
 ## Summary
 
 | Metric | Value |
